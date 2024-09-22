@@ -1,2 +1,70 @@
-# Algorithm_Journey
-일단 하는 알고리즘 스터디
+## Algorithm_Journey
+일단 하는 알고리즘 스터디  
+
+## 💻 알고리즘 마스터가 되자 🔥
+<table>
+  <tr>
+    <td>진행 기간</td>
+    <td>2024.09.23 ~ 진행중  </td>
+  </tr>
+  <tr>
+    <td>스더티 장소</td>
+    <td>디-코</td>
+  </tr>
+  <tr>
+    <td>스터디 시간</td>
+    <td>매일 3시간</td>
+  </tr>
+  <tr>
+    <td>언어</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/47236652-0e7c-43ca-a8ae-92177ad27f95" width="50">
+    <img src="https://github.com/user-attachments/assets/e5ef9b30-c260-4e65-9cd8-32ff24bd94f9" width="50"></td>
+  </tr>
+</table>
+
+## 스터디 멤버
+  <table>
+    <tr>
+      <td align="center"><a href="https://github.com/TalkingPotato90"><img src="https://avatars.githubusercontent.com/u/138276030?v=4" width="100"></a></td>
+      <td align="center"><a href="https://github.com/ChrisP-00"><img src="https://avatars.githubusercontent.com/u/108470058?v=4" width="100"></a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/TalkingPotato90">TalkingPotato90</a></td>
+      <td align="center"><a href="https://github.com/ChrisP-00">ChrisP-00</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/user-attachments/assets/47236652-0e7c-43ca-a8ae-92177ad27f95" width="50"></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/e5ef9b30-c260-4e65-9cd8-32ff24bd94f9" width="50"></td>
+    </tr>
+  </table>
+
+
+
+## 스터디 진행  
+
+매일 주제에 맞는 문제를 풀고 문제 풀이를 같이 논의합니다.  
+풀이에 대한 시간복잡도, 효율성등을 검토합니다.  
+- 스터디는 매일 온라인으로 3시간 진행됩니다.
+  - 2시간 문제 풀이
+  - 1시간 문제 풀이 공유 및 시간 복잡도, 효율성 검토
+- 당일 주제에 맞는 문제를 난이도에 따라 1개에서 3개 선정하여 풉니다. 
+
+## 목표
+매일 강제 성장하여 알고리즘 마스터되기.
+
+
+## 진행 기간
+시작일 : 2024.09.23
+* 매 4주차 마다 스터디 진행에 대한 회고를 합니다. 
+
+## 알고리즘 주제
+- 1주차 : 입출력, 조건문 & 반복문, 문자열, 수학1, 수학2
+- 2주차 : 스택, 큐, 덱, 해시, 힙
+- 3주차 : 재귀, 정렬, 그래프, BFS & DFS, 백트래킹
+- 4주차 : 이분 탐색, 분할 정복, 그리디, DP, 구현
+
+  ** 주제는 스터디를 진행함에 따라 변경될 수 있음
+  
+- 5주차 이후 : 심화 문제
+
+
