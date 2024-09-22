@@ -17,8 +17,8 @@
   </tr>
   <tr>
     <td>언어</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/47236652-0e7c-43ca-a8ae-92177ad27f95" width="50">
-    <img src="https://github.com/user-attachments/assets/e5ef9b30-c260-4e65-9cd8-32ff24bd94f9" width="50"></td>
+      <td align="center"><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+      <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"></td>
   </tr>
 </table>
 
@@ -33,8 +33,8 @@
       <td align="center"><a href="https://github.com/ChrisP-00">ChrisP-00</a></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/47236652-0e7c-43ca-a8ae-92177ad27f95" width="50"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/e5ef9b30-c260-4e65-9cd8-32ff24bd94f9" width="50"></td>
+      <td align="center"><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+      <td align="center"><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"></td>
     </tr>
   </table>
 
