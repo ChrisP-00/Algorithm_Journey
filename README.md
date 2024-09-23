@@ -69,4 +69,10 @@
 
 
 ## 📡 플랫폼
-[![프로그래머스](https://github.com/user-attachments/assets/fa573a27-e9c6-4a19-999c-33cda15f0f6b)](https://programmers.co.kr)
+<a href="https://programmers.co.kr">
+  <img src="https://github.com/user-attachments/assets/fa573a27-e9c6-4a19-999c-33cda15f0f6b" alt="프로그래머스" width="200" >
+</a>
+<a href="https://www.acmicpc.net/">
+  <img src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" alt="백준" width="200">
+</a>
+
