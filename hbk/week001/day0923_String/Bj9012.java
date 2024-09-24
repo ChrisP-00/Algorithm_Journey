@@ -1,4 +1,4 @@
-package week001.day0923;
+package week001.day0923_String;
 
 import java.io.*;
 import java.util.Stack;

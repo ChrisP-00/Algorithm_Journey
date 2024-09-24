@@ -7,3 +7,10 @@
 |----|---------|---|
 | 괄호 | 문자열, 스택 |https://www.acmicpc.net/problem/9012|
 
+### 0924 - 스택 & 큐
+
+| 문제 | 분류 | 링크                                    |
+|----|----|---------------------------------------|
+| 탑  | 스택 | https://www.acmicpc.net/problem/2493  |
+| 큐  | 큐  | https://www.acmicpc.net/problem/10845 |
+
