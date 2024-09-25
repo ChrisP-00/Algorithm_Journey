@@ -15,3 +15,9 @@
 |탑|스택|https://www.acmicpc.net/problem/2493|
 |트럭|큐|https://www.acmicpc.net/problem/13335|
 
+### 0925 - 덱
+
+|문제|분류|링크|
+|---|---|---|
+|알파벳 블록|덱|https://www.acmicpc.net/problem/27497|
+|AC|덱|https://www.acmicpc.net/problem/5430|
