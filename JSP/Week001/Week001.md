@@ -21,3 +21,10 @@
 |---|---|---|
 |알파벳 블록|덱|https://www.acmicpc.net/problem/27497|
 |AC|덱|https://www.acmicpc.net/problem/5430|
+
+### 0926 - 해시
+
+|문제|분류|링크|
+|---|---|---|
+|Hashing|해시|https://www.acmicpc.net/problem/15829|
+|여우는 어떻게 울지?|해시|https://www.acmicpc.net/problem/9536|
