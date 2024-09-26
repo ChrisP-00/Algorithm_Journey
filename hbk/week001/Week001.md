@@ -14,3 +14,16 @@
 | 탑  | 스택 | https://www.acmicpc.net/problem/2493  |
 | 큐  | 큐  | https://www.acmicpc.net/problem/10845 |
 
+### 0925 - 덱
+
+| 문제     |분류| 링크                                    |
+|--------|---|---------------------------------------|
+| 덱      |덱| https://www.acmicpc.net/problem/10866 |
+| 웹브라우저2 |덱| https://www.acmicpc.net/problem/23300 |
+
+### 0926 - 해싱
+
+| 문제      | 분류                  | 링크                                    |
+|---------|---------------------|---------------------------------------|
+| Hashing | 문자열, 해싱             | https://www.acmicpc.net/problem/15829 |
+| 친구 네트워크 | 해시를 사용한 집합과 맵, 분리집합 | https://www.acmicpc.net/problem/4195  |
