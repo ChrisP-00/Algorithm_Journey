@@ -26,5 +26,11 @@
 
 |문제|분류|링크|
 |---|---|---|
-|Hashing|해시|https://www.acmicpc.net/problem/15829|
-|여우는 어떻게 울지?|해시|https://www.acmicpc.net/problem/9536|
+|Hashing|해싱|https://www.acmicpc.net/problem/15829|
+|여우는 어떻게 울지?|해싱|https://www.acmicpc.net/problem/9536|
+
+### 0927 - 힙
+
+|문제|분류|링크|
+|---|---|---|
+|카드 정렬하기|힙|https://www.acmicpc.net/problem/1715|
