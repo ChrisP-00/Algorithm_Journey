@@ -1,4 +1,4 @@
-package week001.day0930_Recursion;
+package week002.day0930_Recursion;
 
 import java.io.*;
 
