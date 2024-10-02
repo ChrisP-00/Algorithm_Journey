@@ -13,3 +13,10 @@
 |문제|분류|링크|
 |---|---|---|
 |회의실 배정|정렬|https://www.acmicpc.net/problem/1931|
+
+### 1002 - 그래프
+
+|문제|분류|링크|
+|---|---|---|
+|상근이의 여행|그래프|https://www.acmicpc.net/problem/9372|
+|토마노|그래프|https://www.acmicpc.net/problem/7576|
