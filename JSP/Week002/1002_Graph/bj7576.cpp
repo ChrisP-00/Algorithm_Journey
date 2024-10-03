@@ -31,9 +31,10 @@ int main()
 
     while(!goodTomato.empty())
     {
-        queue<pair<int, int> > temp; 
+        int qSize = goodTomato.size();
+        bool isGoodTomato = false;
 
-        while(!goodTomato.empty())
+        for(int idx = 0; idx < qSize; ++idx)
         {
             pair<int, int> cur = goodTomato.front();
             goodTomato.pop();
@@ -53,19 +54,14 @@ int main()
                 if(box[tY][tX] == 0)
                 {
                     box[tY][tX] = 1;
-                    temp.push(make_pair(tY, tX));
+                    goodTomato.push(make_pair(tY, tX));
+                    isGoodTomato = true;
                 }
             }
         }
 
-        if(goodTomato.empty() && !temp.empty())
+        if(isGoodTomato)
         {
-            while(!temp.empty())
-            {
-                goodTomato.push(temp.front());
-                temp.pop();
-            }
-
             answer++;
         }
     }
