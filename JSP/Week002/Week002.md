@@ -16,7 +16,7 @@
 
 ### 1002 - 그래프
 
-|문제|분류|링크|
+| 문제 |분류|링크|
 |---|---|---|
 |상근이의 여행|그래프|https://www.acmicpc.net/problem/9372|
-|토마노|그래프|https://www.acmicpc.net/problem/7576|
+|토마토|그래프|https://www.acmicpc.net/problem/7576|
