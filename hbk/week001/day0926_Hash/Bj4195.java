@@ -1,64 +1,64 @@
 package week001.day0926_Hash;
 
 import java.io.*;
-import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Bj4195 {
+    private static Map<String, String> parent = new HashMap<>();
+    private static Map<String, Integer> cnt = new HashMap<>();
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int testCases = Integer.parseInt(br.readLine());
 
-        HashSet<String> network = new HashSet<>();
-        HashSet<String> history = new HashSet<>();
+        while (testCases-- > 0) {
+            int network = Integer.parseInt(br.readLine());
+            parent.clear();
+            cnt.clear();
+            for (int i = 0; i < network; i++) {
+                String[] input = br.readLine().split(" ");
+                String node1 = input[0];
+                String node2 = input[1];
 
-        int result = 2;
-
-        for (int i = 0; i < testCases; i++) {
-            int friends = Integer.parseInt(br.readLine());
-
-            for (int j = 0; j < friends; j++) {
-                String temp = br.readLine();
-
-                if (history.contains(temp)) {
-                    bw.write(result + "\n");
-                    bw.flush();
-                    continue;
+                if (!parent.containsKey(node1)) {
+                    parent.put(node1, node1);
+                    cnt.put(node1, 1);
                 }
 
-                history.add(temp);
-                // [a,2] [b,2]
-                // [c,2] [d,2]
-
-                // [e] [f]
-                // [g] [h]
-                String[] input = temp.split(" ");
-
-                // [b] [c]
-                // [f] [g]
-                if (network.contains(input[0]) && network.contains(input[1])) {
-                    result += 2;
-
-                } else if (network.contains(input[0]) || network.contains(input[1])) {
-                    network.add(input[0]);
-                    network.add(input[1]);
-
-                    result++;
-                } else {
-                    network.add(input[0]);
-                    network.add(input[1]);
-
+                if (!parent.containsKey(node2)) {
+                    parent.put(node2, node2);
+                    cnt.put(node2, 1);
                 }
 
-                bw.write(result + "\n");
-                bw.flush();
+                union(node1, node2);
+                bw.write(cnt.get(find(node1)) + "\n");
             }
-
-            network.clear();
-            history.clear();
-            result = 2;
         }
+        bw.flush();
         bw.close();
     }
+
+    private static String find(String node) {
+        if (node.equals(parent.get(node))) {
+            return node;
+        }
+        String p = find(parent.get(node));
+        parent.put(node, p);
+        return p;
+    }
+
+    private static void union(String node1, String node2) {
+        String p1 = find(node1);
+        String p2 = find(node2);
+
+        if (!p1.equals(p2)) {
+            parent.put(p2, p1);
+            cnt.put(p1, cnt.get(p1) + cnt.get(p2));
+        }
+    }
+
+
 }
