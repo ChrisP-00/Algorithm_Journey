@@ -8,7 +8,7 @@ public class Bj2493 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringBuilder sb = new StringBuilder();
-        Stack<Integer> stack = new Stack<>();
+        Stack<int[]> stack = new Stack<>();
 
         int number = Integer.parseInt(br.readLine());
         int[] arr = new int[number];
@@ -16,30 +16,23 @@ public class Bj2493 {
 
         for (int i = 0; i < number; i++) {
             arr[i] = Integer.parseInt(s[i]);
-            stack.push(arr[i]);
         }
         // [6,9,5,7,4]
 
-        // 뒤에서부터 확인하면 조짐... ex : 9 6 5 7 4
+        for (int i = 0; i < number; i++) {
+            while (!stack.isEmpty() && stack.peek()[1] < arr[i]) {
+                stack.pop();
+            }
+            if (!stack.isEmpty()) {
+                sb.append(stack.peek()[0] + 1).append(" ");
+            }else {
+                sb.append(0).append(" ");
+            }
 
-//        int temp = 0;
-//
-//        for (int i = number-1; i >= 0; i--) {
-//            stack.pop();
-//            if (stack.isEmpty()) {
-//                sb.append(0);
-//            }else if (stack.peek() >= arr[i]) {
-//                while (temp != 0) {
-//                    sb.append(i).append(" ");
-//                    temp--;
-//                }
-//                sb.append(i).append(" ");
-//            } else {
-//                temp++;
-//            }
-//        }
+            stack.push(new int[]{i, arr[i]});
+        }
 
-        bw.write(sb.reverse().toString());
+        bw.write(sb.toString());
         bw.flush();
         bw.close();
     }
