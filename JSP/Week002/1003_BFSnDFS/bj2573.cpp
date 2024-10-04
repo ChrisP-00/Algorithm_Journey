@@ -1,12 +1,9 @@
 #include <iostream>
 #include <vector> 
-#include <queue>
 
 using namespace std; 
 
 vector<pair<int, int>> dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-queue<pair<int, int>> visit;
-
 vector<vector<int>> map;
 vector<vector<bool>> isVisited;
 
@@ -23,58 +20,15 @@ void isIsland(int iY, int iX)
         int posX = iX + dir[i].second;
 
         // 유효한 좌표인지 확인하고, 방문하지 않은 빙산 부분이 있으면 탐색
-        if (posY >= 0 && posY < y && posX >= 0 && posX < x && !isVisited[posY][posX] && map[posY][posX] > 0) 
+        if (posY >= 0 && posY < y && posX >= 0 && posX < x) 
         {
-            isIsland(posY, posX);
+            if(!isVisited[posY][posX] && map[posY][posX] > 0)
+            {
+                isIsland(posY, posX);
+            }
         }
     }
 }
-
-
-void meltIce()
-{
-    vector<vector<int>> newMap = map; 
-    int size = visit.size();
-
-    for(int i = 0; i < size; ++i)
-    {
-        pair<int, int> cur = visit.front();
-
-        int island = map[cur.first][cur.second];
-        int countWater = 0;
-
-        for(int idx = 0; idx < 4; ++idx)
-        {
-            int ty = cur.first + dir[idx].first; 
-            int tx = cur.second + dir[idx].second; 
-
-            if(ty < 0 || ty >= y || tx < 0 || tx >= x)
-            {
-                continue;
-            }
-
-            if(map[ty][tx] == 0)
-            {
-                countWater++;
-            }
-        }
-
-        island -= countWater;
-
-        if(island > 0)
-        {
-            newMap[cur.first][cur.second] = island; 
-            visit.push(cur);
-        }
-        else
-        {
-            newMap[cur.first][cur.second] = 0;
-        }
-    }
-
-    map = newMap;
-}
-
 
 int CountIsland()
 {
@@ -96,6 +50,45 @@ int CountIsland()
     return count;
 }
 
+void meltIce()
+{
+    vector<vector<int>> newMap = map; 
+
+    for(int iy = 0; iy < y; ++iy)
+    {
+        for(int ix = 0; ix < x; ++ix)
+        {
+            if(newMap[iy][ix] == 0)
+            {
+                continue;
+            }
+
+            int countWater = 0;
+
+            for(int idx = 0; idx < 4; ++idx)
+            {
+                int ty = iy + dir[idx].first; 
+                int tx = ix + dir[idx].second; 
+
+                if(ty < 0 || ty >= y || tx < 0 || tx >= x)
+                {
+                    continue;
+                }
+            
+                if(map[ty][tx] == 0)
+                {
+                    countWater++;
+                }
+            }
+
+            newMap[iy][ix] = max(map[iy][ix] - countWater, 0);
+        }
+    }
+
+    map = newMap;
+}
+
+
 int main()
 {
     cin >> y >> x; 
@@ -111,19 +104,15 @@ int main()
             cin >> n; 
 
             map[iy][ix] = n;
-
-            if(map[iy][ix] != 0)
-            {
-                visit.push(make_pair(iy, ix));
-            }
         }
     }
     
     int year = 0;
-
-    while(!visit.empty())
+    int islandCount = 0;
+     
+    do
     {
-        int islandCount = CountIsland();
+        islandCount = CountIsland();
 
         if(islandCount >= 2)
         {
@@ -140,8 +129,7 @@ int main()
         meltIce();
         year++;
 
-        cout << year << '\n';
-    }
+    }while(islandCount != 0);
 
     return 0;
 }
