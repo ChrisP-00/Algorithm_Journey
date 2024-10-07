@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector> 
 #include <queue>
+#include <climits>
 #include <algorithm>
 #define fast ios::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL);
 
@@ -45,7 +46,8 @@ int main()
     cin >> n >> m;
 
     vector<vector<pair<int,int>>> map (n + 1, vector<pair<int,int>>()); 
-    vector<int> weight;
+    int minWeight = INT_MAX;
+    int maxWeight = 0;
 
     while(m--)
     {
@@ -55,33 +57,30 @@ int main()
         map[a].push_back(make_pair(b, c));
         map[b].push_back(make_pair(a, c));
 
-        weight.push_back(c);
+        minWeight = min(minWeight, c);
+        maxWeight = max(maxWeight, c);
     }
 
     int start, end, answer = 0;
     cin >> start >> end;
 
-    // 2 3 2 -> 1 5 10 
-    sort(weight.begin(), weight.end());
+    int left = 0;
+    int right = maxWeight;
 
-    int leftIdx = 0;
-    int rightIdx = weight.size() - 1;     
-
-    while(leftIdx <= rightIdx)
+    while(left <= right)
     {
-        int midIdx = (leftIdx + rightIdx) / 2;
-        int midWeight = weight[midIdx];
+        int mid = (left + right) / 2;
 
         vector<bool> isVisited(n + 1, false);
 
-        if(canMove(start, end, midWeight, map, isVisited))
+        if(canMove(start, end, mid, map, isVisited))
         {
-            answer = weight[midIdx];
-            leftIdx = midIdx + 1; 
+            answer = mid;
+            left = mid + 1; 
         }
         else
         {
-            rightIdx = midIdx - 1;
+            right = mid - 1;
         }
     }
 
