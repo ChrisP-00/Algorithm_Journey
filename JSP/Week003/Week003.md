@@ -6,3 +6,9 @@
 |문제|분류|링크|
 |---|---|---|
 |중량제한|이분 탐색|https://www.acmicpc.net/problem/1939|
+
+### 1008 - 분할 정복
+
+|문제|분류|링크|
+|---|---|---|
+|치킨 TOP N|분할 정복|https://www.acmicpc.net/problem/11582|
