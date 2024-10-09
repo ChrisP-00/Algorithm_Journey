@@ -12,3 +12,9 @@
 |문제|분류|링크|
 |---|---|---|
 |치킨 TOP N|분할 정복|https://www.acmicpc.net/problem/11582|
+
+### 1008 - 그리디
+
+|문제|분류|링크|
+|---|---|---|
+|배|그리디|https://www.acmicpc.net/problem/1092|
