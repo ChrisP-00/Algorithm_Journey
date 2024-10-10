@@ -13,8 +13,14 @@
 |---|---|---|
 |치킨 TOP N|분할 정복|https://www.acmicpc.net/problem/11582|
 
-### 1008 - 그리디
+### 1009 - 그리디
 
 |문제|분류|링크|
 |---|---|---|
 |배|그리디|https://www.acmicpc.net/problem/1092|
+
+### 1010 - 다이나믹 프로그래밍
+
+|문제|분류|링크|
+|---|---|---|
+|포도주 시식|DP|https://www.acmicpc.net/problem/2156|
