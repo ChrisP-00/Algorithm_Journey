@@ -29,8 +29,8 @@
       <td align="center"><a href="https://github.com/ChrisP-00"><img src="https://avatars.githubusercontent.com/u/108470058?v=4" width="100"></a></td>
     </tr>
     <tr>
-      <td align="center"><a href="https://github.com/TalkingPotato90">TalkingPotato90</a></td>
-      <td align="center"><a href="https://github.com/ChrisP-00">ChrisP-00</a></td>
+      <td align="center"><a href="https://github.com/TalkingPotato90">TalkingPotato90 (한별)</a></td>
+      <td align="center"><a href="https://github.com/ChrisP-00">ChrisP-00 (지수)</a></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
