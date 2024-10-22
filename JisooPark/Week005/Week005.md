@@ -7,3 +7,9 @@
 |---|---|---|
 |유기능 배추|BFS, DFS|https://www.acmicpc.net/problem/1012|
 
+### 1022 - 비선형 자료 심화 - 2
+
+|문제|분류|링크|
+|---|---|---|
+|바이러스|BFS, DFS|https://www.acmicpc.net/problem/2606|
+
