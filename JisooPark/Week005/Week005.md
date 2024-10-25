@@ -24,3 +24,9 @@
 |문제|분류|링크|
 |---|---|---|
 |적록색약|BFS, DFS|https://www.acmicpc.net/problem/10026|
+
+### 1025 - 비선형 자료 심화 - 5
+
+|문제|분류|링크|
+|---|---|---|
+|Journey to the moon|BFS, DFS|https://www.hackerrank.com/challenges/journey-to-the-moon/problem|
