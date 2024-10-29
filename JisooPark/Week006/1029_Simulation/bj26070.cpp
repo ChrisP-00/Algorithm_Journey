@@ -52,8 +52,6 @@ int main()
                 tto[prevCoupon] -= temp * 3;
                 tto[idx] += temp - canEat;
             }
-
-            printf("현재 idx: %d 이전 쿠폰: %d 현재 쿠폰: %d \n", idx, tto[prevCoupon], tto[idx]);
         }
     }
 
