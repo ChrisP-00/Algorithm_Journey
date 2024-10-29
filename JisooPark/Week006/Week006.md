@@ -6,3 +6,11 @@
 |문제|분류|링크|
 |---|---|---|
 |문자열 게임2|문자열, 슬라이딩 윈도우|https://www.acmicpc.net/problem/20437|
+
+### 1029 - 시뮬레이션
+
+|문제|분류|링크|
+|---|---|---|
+|눈 치우기|구현, 시뮬레이션|https://www.acmicpc.net/problem/26215|
+|물 주기|구현, 시뮬레이션|https://www.acmicpc.net/problem/23351|
+|곰곰이와 학식|구현, 시뮬레이션|https://www.acmicpc.net/problem/26070|
