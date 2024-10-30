@@ -14,3 +14,10 @@
 |눈 치우기|구현, 시뮬레이션|https://www.acmicpc.net/problem/26215|
 |물 주기|구현, 시뮬레이션|https://www.acmicpc.net/problem/23351|
 |곰곰이와 학식|구현, 시뮬레이션|https://www.acmicpc.net/problem/26070|
+
+### 1030 - 누적합
+
+|문제|분류|링크|
+|---|---|---|
+|소가 길을 건너간 이유 5|누적합 슬라이딩 윈도우|https://www.acmicpc.net/problem/14465|
+|개똥벌레|누적합|https://www.acmicpc.net/problem/3020|
