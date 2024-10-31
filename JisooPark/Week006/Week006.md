@@ -21,3 +21,11 @@
 |---|---|---|
 |소가 길을 건너간 이유 5|누적합 슬라이딩 윈도우|https://www.acmicpc.net/problem/14465|
 |개똥벌레|누적합|https://www.acmicpc.net/problem/3020|
+
+### 1031 - 이분 탐색
+
+|문제|분류|링크|
+|---|---|---|
+|숫자 카드|이분 탐색|https://www.acmicpc.net/problem/10815|
+|어두운 굴다리|이분 탐색|https://www.acmicpc.net/problem/17266|
+|랜선 자르기|이분 탐색|https://www.acmicpc.net/problem/1654|
