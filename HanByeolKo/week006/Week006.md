@@ -30,3 +30,11 @@
 | 어두운 굴다리 | 이분 탐색 | https://www.acmicpc.net/problem/17266 |
 | 랜선 자르기  | 이분 탐색 | https://www.acmicpc.net/problem/1654  |
 
+### 1101 - 알고리즘 심화
+
+| 문제      | 분류    | 링크                                    |
+|---------|-------|---------------------------------------|
+| 공유기 설치   | 이분 탐색 | https://www.acmicpc.net/problem/2110  |
+| 아무래도이문제는A번난이도인것같다 | 애드 혹  | https://www.acmicpc.net/problem/1402  |
+| 늑대와 양  | 애드 혹  | https://www.acmicpc.net/problem/16956 |
+
