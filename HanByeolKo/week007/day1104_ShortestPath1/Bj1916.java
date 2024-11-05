@@ -1,4 +1,4 @@
-package week007;
+package week007.day1104_ShortestPath1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
