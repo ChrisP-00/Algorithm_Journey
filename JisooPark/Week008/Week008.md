@@ -18,3 +18,9 @@
 |문제|분류|링크|
 |---|---|---|
 |안전 영역|DFS|https://www.acmicpc.net/problem/2468|
+
+### 1114 - Brute Force 
+
+|문제|분류|링크|
+|---|---|---|
+|리모컨|Brute Force|https://www.acmicpc.net/problem/1107|
