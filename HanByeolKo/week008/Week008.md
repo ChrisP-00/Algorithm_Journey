@@ -31,5 +31,5 @@
 | 문제       | 분류         | 링크                                   |
 |----------|------------|--------------------------------------|
 | 설탕 배달    | Greedy, DP | https://www.acmicpc.net/problem/2839 |
-| 피보나치 수   | DP, 수학      | https://www.acmicpc.net/problem/2747 |
+| 피보나치 수   | DP, 수학     | https://www.acmicpc.net/problem/2747 |
 | 피보나치 수 3 | 수학         | https://www.acmicpc.net/problem/2749 |
