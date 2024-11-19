@@ -6,3 +6,10 @@
 |문제|분류|링크|
 |---|---|---|
 |영단어 암기는 괴로워|문자열|https://www.acmicpc.net/problem/20920|
+
+### 1119 - String
+
+|문제|분류|링크|
+|---|---|---|
+|우당탕탕 영화예매|문자열, 슬라이딩 윈도우|https://www.acmicpc.net/problem/29700|
+|문자열 잘라내기|문자열, 해시, 이분 탐색|https://www.acmicpc.net/problem/2866|
