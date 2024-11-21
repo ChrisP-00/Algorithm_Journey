@@ -19,3 +19,9 @@
 |문제|분류|링크|
 |---|---|---|
 |DNA 비밀번호|문자열, 슬라이딩 윈도우|https://www.acmicpc.net/problem/12891|
+
+### 1121 - String
+
+|문제|분류|링크|
+|---|---|---|
+|문자 해독|문자열, 슬라이딩 윈도우|https://www.acmicpc.net/problem/1593|
