@@ -13,3 +13,9 @@
 |---|---|---|
 |트리의 부모 찾기|트리|https://www.acmicpc.net/problem/11725|
 
+### 1127 - Tree
+
+|문제|분류|링크|
+|---|---|---|
+|양 구출 작전|트리|https://www.acmicpc.net/problem/16437|
+
