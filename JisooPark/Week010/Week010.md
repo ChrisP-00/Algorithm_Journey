@@ -19,3 +19,10 @@
 |---|---|---|
 |양 구출 작전|트리|https://www.acmicpc.net/problem/16437|
 
+### 1128 - 기출문제
+
+|문제|분류|링크|
+|---|---|---|
+|로또의 최고 순위와 최저 순위|완전탐색|https://school.programmers.co.kr/learn/courses/30/lessons/77484|
+
+
