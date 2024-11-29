@@ -25,4 +25,9 @@
 |---|---|---|
 |로또의 최고 순위와 최저 순위|완전탐색|https://school.programmers.co.kr/learn/courses/30/lessons/77484|
 
+### 1129 - 기출문제
+
+|문제|분류|링크|
+|---|---|---|
+|주차 요금 계산|구현|https://school.programmers.co.kr/learn/courses/30/lessons/92341|
 
