@@ -19,3 +19,9 @@
 |---|---|---|
 |미로 탐색|그래프, BFS|https://www.acmicpc.net/problem/2178|
 |A -> b|그래프, BFS|https://www.acmicpc.net/problem/16953|
+
+### 1205 - 그래프
+
+|문제|분류|링크|
+|---|---|---|
+|단지번호붙이기|그래프, DFS|https://www.acmicpc.net/problem/2667|
