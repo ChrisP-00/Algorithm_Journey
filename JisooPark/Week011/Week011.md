@@ -25,3 +25,9 @@
 |문제|분류|링크|
 |---|---|---|
 |단지번호붙이기|그래프, DFS|https://www.acmicpc.net/problem/2667|
+
+### 1206 - 그래프
+
+|문제|분류|링크|
+|---|---|---|
+|그림|그래프, BFS|https://www.acmicpc.net/problem/1926|
