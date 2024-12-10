@@ -14,3 +14,9 @@
 |슈퍼 마리오|누적합|https://www.acmicpc.net/problem/2851|
 |공포의 면담실|누적합|https://www.acmicpc.net/problem/30088|
 |2차원 배열의 합|누적합|https://www.acmicpc.net/problem/2167|
+
+### 1211 - 누적합
+
+|문제|분류|링크|
+|---|---|---|
+|블로그|누적합, 슬라이딩 윈도우|https://www.acmicpc.net/problem/21921|
