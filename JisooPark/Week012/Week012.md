@@ -6,3 +6,11 @@
 |문제|분류|링크|
 |---|---|---|
 |꿀 따기|누적합|https://www.acmicpc.net/problem/21758|
+
+### 1210 - 누적합
+
+|문제|분류|링크|
+|---|---|---|
+|슈퍼 마리오|누적합|https://www.acmicpc.net/problem/2851|
+|공포의 면담실|누적합|https://www.acmicpc.net/problem/30088|
+|2차원 배열의 합|누적합|https://www.acmicpc.net/problem/2167|
