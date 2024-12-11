@@ -14,3 +14,4 @@ out/
 ### Mac OS ###
 .DS_Store
 /build/
+.autocp
