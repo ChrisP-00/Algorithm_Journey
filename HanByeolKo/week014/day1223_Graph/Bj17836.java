@@ -10,22 +10,19 @@ import java.util.StringTokenizer;
 public class Bj17836 {
     static int n, m, t;
     static int[][] map;
-    static boolean[][] visited;
-    static int[] dx = {-1, 1, 0, 0};
-    static int[] dy = {0, 0, -1, 1};
-    static boolean hasSuperPower = false;
+    static boolean[][][] visited;
+    static int[] dx = { -1, 1, 0, 0 };
+    static int[] dy = { 0, 0, -1, 1 };
     static int minTime = Integer.MAX_VALUE;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         t = Integer.parseInt(st.nextToken());
-
         map = new int[n][m];
-        visited = new boolean[n][m];
+        visited = new boolean[n][m][2];
 
         for (int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
@@ -35,7 +32,6 @@ public class Bj17836 {
         }
 
         bfs(0, 0);
-
         if (minTime <= t) {
             System.out.println(minTime);
         } else {
@@ -45,14 +41,15 @@ public class Bj17836 {
 
     public static void bfs(int x, int y) {
         Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[]{x, y, 0});
-        visited[x][y] = true;
+        queue.add(new int[] { x, y, 0, 0 });
+        visited[x][y][0] = true;
 
         while (!queue.isEmpty()) {
             int[] cur = queue.poll();
             int cx = cur[0];
             int cy = cur[1];
             int time = cur[2];
+            int superPower = cur[3];
 
             if (cx == n - 1 && cy == m - 1) {
                 minTime = Math.min(minTime, time);
@@ -66,18 +63,17 @@ public class Bj17836 {
                 int nx = cx + dx[i];
                 int ny = cy + dy[i];
 
-                if (nx >= 0 && ny >= 0 && nx < n && ny < m && !visited[nx][ny]) {
-                    if (!hasSuperPower) {
-                        if (map[nx][ny] != 1) {
-                            visited[nx][ny] = true;
-                            queue.add(new int[]{nx, ny, time + 1});
-                            if (map[nx][ny] == 2) {
-                                hasSuperPower = true;
-                            }
+                if (nx >= 0 && ny >= 0 && nx < n && ny < m) {
+                    if (superPower == 0 && !visited[nx][ny][0] && map[nx][ny] != 1) {
+                        visited[nx][ny][0] = true;
+                        queue.add(new int[] { nx, ny, time + 1, 0 });
+                        if (map[nx][ny] == 2) {
+                            visited[nx][ny][1] = true;
+                            queue.add(new int[] { nx, ny, time + 1, 1 });
                         }
-                    } else {
-                        visited[nx][ny] = true;
-                        queue.add(new int[]{nx, ny, time + 1});
+                    } else if (superPower == 1 && !visited[nx][ny][1]) {
+                        visited[nx][ny][1] = true;
+                        queue.add(new int[] { nx, ny, time + 1, 1 });
                     }
                 }
             }
