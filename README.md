@@ -1,3 +1,7 @@
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/{ChrisP-00}"/>
+</a>
+
 ## Algorithm_Journey
 일단 하는 알고리즘 스터디  
 
