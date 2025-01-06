@@ -1,5 +1,9 @@
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/{ChrisP-00}"/>
+<img
+  src="https://render.gitanimals.org/farms/ChrisP-00"
+  width="600"
+  height="300"
+/>
 </a>
 
 ## Algorithm_Journey
