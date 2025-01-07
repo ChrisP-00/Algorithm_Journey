@@ -1,4 +1,4 @@
-package week016;
+package week016.day0106_Graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;
