@@ -5,6 +5,22 @@
   height="300"
 />
 </a>
+<p></p>
+<div>
+  <img
+    src="http://mazassumnida.wtf/api/v2/generate_badge?boj=star901210"
+    width="294"
+    height="150"
+    style="display: inline-block;"
+  />
+  <span>&nbsp;</span>
+  <img
+    src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jsp0403"
+    width="294"
+    height="150"
+    style="display: inline-block;"
+  />
+</div>
 
 ## Algorithm_Journey
 일단 하는 알고리즘 스터디  
