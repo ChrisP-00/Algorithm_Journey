@@ -6,3 +6,9 @@
 |문제|분류|링크|
 |---|---|---|
 |양치기 꿍|BFS, DFS|https://www.acmicpc.net/problem/3187|
+
+### 0121 - 구현
+
+|문제|분류|링크|
+|---|---|---|
+|랭킹전 대기열|구현, 시뮬레이션|https://www.acmicpc.net/problem/20006|
